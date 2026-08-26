@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-26T13:28:25.837Z",
+  "tools": [
+    {
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "mipmap-studio",
+        "name": "Mipmap Studio",
+        "version": "0.1.0",
+        "description": "Android 资源图片管理：扫描 res 目录、查看 mipmap/drawable 资源、批量重命名/删除/回迁、撤销",
+        "category": "image",
+        "keywords": [
+          "mipmap",
+          "drawable",
+          "android",
+          "res",
+          "图片",
+          "资源",
+          "重命名"
+        ],
+        "icon": "images",
+        "layout": "fullscreen",
+        "entry": "module.js",
+        "style": "style.css",
+        "minAppVersion": "0.1.0"
+      },
+      "package": {
+        "file": "plugins/mipmap-studio-0.1.0.zip",
+        "sha256": "67291ea357b686a8e2fdec181420780892005acb659801aa0b4ac10ae643b9c2",
+        "size": 98845
+      }
+    },
+    {
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "timestamp",
+        "name": "时间戳转换",
+        "version": "1.0.0",
+        "description": "Unix 时间戳与日期时间互转，自动识别秒/毫秒/微秒，支持多种格式输出与相对时间",
+        "category": "time",
+        "keywords": [
+          "timestamp",
+          "unix",
+          "时间",
+          "时间戳",
+          "日期",
+          "date",
+          "转换",
+          "毫秒"
+        ],
+        "icon": "clock",
+        "layout": "card",
+        "entry": "module.js",
+        "style": "style.css",
+        "minAppVersion": "0.1.0"
+      },
+      "package": {
+        "file": "plugins/timestamp-1.0.0.zip",
+        "sha256": "f72210afb674131137d930509b29de93f4635a206b68e98cca083ae0d815b8d3",
+        "size": 52391
+      }
+    }
+  ]
+}
