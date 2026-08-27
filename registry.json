@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-27T10:37:24.317Z",
+  "generatedAt": "2026-08-27T13:48:54.165Z",
   "tools": [
     {
       "manifest": {
@@ -94,6 +94,36 @@
         "file": "plugins/mipmap-studio-0.1.0.zip",
         "sha256": "25b1e5b34bc0c1d1bc839cc4692a3b9241ea637db7113b0548fd78b67a0055e6",
         "size": 101515
+      }
+    },
+    {
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "simulator",
+        "name": "智能家居模拟器",
+        "version": "4.0.0",
+        "description": "akubela 智能家居模拟器（原生复刻）：全量设备族、家庭中心协议、对外 API、任务/场景/安防",
+        "category": "developer",
+        "keywords": [
+          "simulator",
+          "模拟器",
+          "智能家居",
+          "akubela",
+          "zigbee",
+          "mqtt",
+          "gateway",
+          "设备模拟"
+        ],
+        "icon": "home",
+        "layout": "fullscreen",
+        "entry": "module.js",
+        "style": "style.css",
+        "minAppVersion": "0.2.0"
+      },
+      "package": {
+        "file": "plugins/simulator-4.0.0.zip",
+        "sha256": "521b3f64de300c34bd94227452e9f2f4dd35ce34676d31f99264b8ce67ac5c6e",
+        "size": 842784
       }
     },
     {
