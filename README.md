@@ -7,8 +7,9 @@ ToolBox 的工具分发仓库。`registry.json` 是工具目录，`plugins/` 存
 
 | 源 | 地址 | 说明 |
 | --- | --- | --- |
-| jsDelivr CDN（默认） | `https://cdn.jsdelivr.net/gh/pie-tk/toolbox-registry@main/registry.json` | 国内可达性较好，有 CDN 缓存（推送后约几分钟生效；可访问 `https://purge.jsdelivr.net/gh/pie-tk/toolbox-registry@main/registry.json` 手动刷新） |
-| GitHub Raw | `https://raw.githubusercontent.com/pie-tk/toolbox-registry/main/registry.json` | 实时性好，无缓存延迟 |
+| GitHub Pages（默认） | `https://pie-tk.github.io/toolbox-registry/registry.json` | 推送后约 1 分钟自动生效，更新及时 |
+| jsDelivr CDN（备用） | `https://cdn.jsdelivr.net/gh/pie-tk/toolbox-registry@main/registry.json` | 国内可达性好，但 `@main` 分支缓存更新慢（可能滞后数小时） |
+| GitHub Raw | `https://raw.githubusercontent.com/pie-tk/toolbox-registry/main/registry.json` | 实时，无缓存；部分网络不可达 |
 
 在 ToolBox 的「设置 → 工具源」中填入以上任一地址即可。
 
