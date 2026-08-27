@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "notes": "ToolBox v0.1.0",
+  "pub_date": "2026-08-27T06:28:29.212Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSjBLUG9DWkRuNXpFRXFIS2ZqWlhSc1VLaThWSkxlTVBaVW95eTZBNXEzWS9kYUp5Wlo5cmh5d3Zxa3pIMnFTS084SGtkemtOYzY0VldDRTNmWnhYclVEdDVqWHhHV0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODEyMTA5CWZpbGU6VG9vbEJveF8wLjEuMF94NjQtc2V0dXAuZXhlClo0eXhGK25jWmU3M1IyTXNZekRDRzRyTWlQelFTKzlhSlFNWDY5MW1yK2hiSjhUeEFjQzYzWStTS2NxeFJ2TjBUWkI4cUxHd3pnZURRUUF6RWYrekJ3PT0K",
+      "url": "https://pie-tk.github.io/toolbox-registry/app/ToolBox-setup.exe"
+    }
+  }
+}
