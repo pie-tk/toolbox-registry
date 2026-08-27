@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-27T10:02:36.224Z",
+  "generatedAt": "2026-08-27T10:24:37.371Z",
   "tools": [
     {
       "manifest": {
@@ -101,8 +101,8 @@
         "schemaVersion": 1,
         "id": "simulator",
         "name": "智能家居模拟器",
-        "version": "1.0.0",
-        "description": "启动/停止 akubela 智能家居模拟器（Python/PyQt5），查看运行日志，自动探测打包 exe / venv / 系统 Python",
+        "version": "2.0.0",
+        "description": "akubela 智能家居模拟器完整界面：网关/子设备/任务/场景/房间/安防/联系人/壁纸管理与批量操作，内嵌于 ToolBox（Python 核心后台运行）",
         "category": "developer",
         "keywords": [
           "simulator",
@@ -111,18 +111,19 @@
           "akubela",
           "zigbee",
           "mqtt",
-          "gateway"
+          "gateway",
+          "设备模拟"
         ],
         "icon": "home",
-        "layout": "card",
+        "layout": "fullscreen",
         "entry": "module.js",
         "style": "style.css",
         "minAppVersion": "0.1.2"
       },
       "package": {
-        "file": "plugins/simulator-1.0.0.zip",
-        "sha256": "f686383b502c854a6dcc124bc769a0a0d091becd0f0472211dd88b6e736329da",
-        "size": 54028
+        "file": "plugins/simulator-2.0.0.zip",
+        "sha256": "b22b5bd8650ea7c89ab081e750dbd872056546c2620611f089317ba32b1d77ff",
+        "size": 58889
       }
     },
     {
