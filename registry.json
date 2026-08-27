@@ -1,7 +1,40 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-08-26T13:28:25.837Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-27T02:51:02.434Z",
   "tools": [
+    {
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "image-convert",
+        "name": "图片格式转换",
+        "version": "1.0.0",
+        "description": "批量转换图片格式（PNG/JPEG/WebP）、调整质量与尺寸，与其他图工具共用 image-core 能力",
+        "category": "image",
+        "keywords": [
+          "图片",
+          "转换",
+          "格式",
+          "png",
+          "jpeg",
+          "webp",
+          "压缩",
+          "缩放"
+        ],
+        "icon": "image",
+        "layout": "card",
+        "entry": "module.js",
+        "style": "style.css",
+        "minAppVersion": "0.1.0",
+        "requires": {
+          "image-core": "^1.0.0"
+        }
+      },
+      "package": {
+        "file": "plugins/image-convert-1.0.0.zip",
+        "sha256": "045ab98b05485c670c7e728891bbc645f84adb31bcc4c34c70ecf4e2999361c6",
+        "size": 52700
+      }
+    },
     {
       "manifest": {
         "schemaVersion": 1,
@@ -23,12 +56,15 @@
         "layout": "fullscreen",
         "entry": "module.js",
         "style": "style.css",
-        "minAppVersion": "0.1.0"
+        "minAppVersion": "0.1.0",
+        "requires": {
+          "image-core": "^1.0.0"
+        }
       },
       "package": {
         "file": "plugins/mipmap-studio-0.1.0.zip",
-        "sha256": "67291ea357b686a8e2fdec181420780892005acb659801aa0b4ac10ae643b9c2",
-        "size": 98845
+        "sha256": "25b1e5b34bc0c1d1bc839cc4692a3b9241ea637db7113b0548fd78b67a0055e6",
+        "size": 101515
       }
     },
     {
@@ -59,6 +95,26 @@
         "file": "plugins/timestamp-1.0.0.zip",
         "sha256": "f72210afb674131137d930509b29de93f4635a206b68e98cca083ae0d815b8d3",
         "size": 52391
+      }
+    }
+  ],
+  "capabilities": [
+    {
+      "manifest": {
+        "schemaVersion": 1,
+        "kind": "capability",
+        "id": "image-core",
+        "version": "1.0.0",
+        "api": "1",
+        "name": "图像处理核心",
+        "description": "图片解码/探测/缩略图/格式转换（支持 PNG/JPEG/WebP/GIF 输入）",
+        "entry": "cap.wasm",
+        "bridge": "bridge.js"
+      },
+      "package": {
+        "file": "plugins/image-core-1.0.0.zip",
+        "sha256": "e67dbd4c0d03d5687e3457d2bbb82f7f13a783c58c5559de4b79f74da3e74230",
+        "size": 266318
       }
     }
   ]
