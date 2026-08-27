@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-27T13:48:54.165Z",
+  "generatedAt": "2026-08-27T14:46:25.771Z",
   "tools": [
     {
       "manifest": {
@@ -101,7 +101,7 @@
         "schemaVersion": 1,
         "id": "simulator",
         "name": "智能家居模拟器",
-        "version": "4.0.0",
+        "version": "4.1.0",
         "description": "akubela 智能家居模拟器（原生复刻）：全量设备族、家庭中心协议、对外 API、任务/场景/安防",
         "category": "developer",
         "keywords": [
@@ -121,9 +121,9 @@
         "minAppVersion": "0.2.0"
       },
       "package": {
-        "file": "plugins/simulator-4.0.0.zip",
-        "sha256": "521b3f64de300c34bd94227452e9f2f4dd35ce34676d31f99264b8ce67ac5c6e",
-        "size": 842784
+        "file": "plugins/simulator-4.1.0.zip",
+        "sha256": "13c446cd59132207d32ff3af793cce5da1922083a884df19b122a77f5a3fc544",
+        "size": 841431
       }
     },
     {
