@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-27T02:51:02.434Z",
+  "generatedAt": "2026-08-27T03:29:24.729Z",
   "tools": [
     {
       "manifest": {
@@ -33,6 +33,35 @@
         "file": "plugins/image-convert-1.0.0.zip",
         "sha256": "045ab98b05485c670c7e728891bbc645f84adb31bcc4c34c70ecf4e2999361c6",
         "size": 52700
+      }
+    },
+    {
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "json-formatter",
+        "name": "JSON 格式化",
+        "version": "1.0.0",
+        "description": "格式化、压缩与校验 JSON，错误行号定位，支持键排序与缩进切换",
+        "category": "developer",
+        "keywords": [
+          "json",
+          "format",
+          "格式化",
+          "压缩",
+          "校验",
+          "json viewer",
+          "beautify"
+        ],
+        "icon": "braces",
+        "layout": "card",
+        "entry": "module.js",
+        "style": "style.css",
+        "minAppVersion": "0.1.0"
+      },
+      "package": {
+        "file": "plugins/json-formatter-1.0.0.zip",
+        "sha256": "319bb0e53cec80fdb2e518cdbd3e9c9cc019beccfefdd730814fe11f0cbec44f",
+        "size": 52347
       }
     },
     {
