@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-28T08:53:57.764Z",
+  "generatedAt": "2026-08-28T09:20:15.657Z",
   "tools": [
     {
       "manifest": {
@@ -122,8 +122,8 @@
       },
       "package": {
         "file": "plugins/simulator-4.1.9.zip",
-        "sha256": "6eb8c0b4dbfecd3f345f9f19a537cda9470cb664154b75a67ddaafc040561a76",
-        "size": 845043
+        "sha256": "56fb7edacdc1ae469d129d2f084640b14c3e0edce49ef1ad8fb4995a221bdccc",
+        "size": 845091
       }
     },
     {
