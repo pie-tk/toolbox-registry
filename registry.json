@@ -1,7 +1,38 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-28T09:35:27.734Z",
+  "generatedAt": "2026-08-31T09:55:06.053Z",
   "tools": [
+    {
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "glm-key-test",
+        "name": "GLM Key 测试",
+        "version": "1.4.0",
+        "description": "测试智谱 GLM Coding Plan API Key 是否可用：发起最简对话请求，查看模型回复；支持定时自动测试与历史记录",
+        "category": "developer",
+        "keywords": [
+          "zhipu",
+          "glm",
+          "bigmodel",
+          "coding plan",
+          "key",
+          "api",
+          "智谱",
+          "测试",
+          "定时"
+        ],
+        "icon": "key",
+        "layout": "card",
+        "entry": "module.js",
+        "style": "style.css",
+        "minAppVersion": "0.1.0"
+      },
+      "package": {
+        "file": "plugins/glm-key-test-1.4.0.zip",
+        "sha256": "4b0ee39bd56cd0a056e9258ddb31ddbf3de3e823b02f5e6858710f1fe9a7e0d4",
+        "size": 57216
+      }
+    },
     {
       "manifest": {
         "schemaVersion": 1,
@@ -122,8 +153,8 @@
       },
       "package": {
         "file": "plugins/simulator-4.1.10.zip",
-        "sha256": "758d5905ba315bb14852e25f804202cd5308bc2b47a5ea78c67f46b3e8f8365a",
-        "size": 845092
+        "sha256": "ac1fa1af8e28d39a388f9115b82c41c76b2ee51409fa9c846e21b6de3a01c41a",
+        "size": 845095
       }
     },
     {
