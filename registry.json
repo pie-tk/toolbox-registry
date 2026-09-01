@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T03:04:03.052Z",
+  "generatedAt": "2026-09-01T03:13:20.671Z",
   "tools": [
     {
       "manifest": {
         "schemaVersion": 1,
         "id": "glm-key-test",
         "name": "GLM Key 测试",
-        "version": "1.7.0",
+        "version": "1.8.0",
         "description": "测试智谱 GLM Coding Plan API Key 是否可用：发起最简对话请求，查看模型回复；后台定时自动测试（应用启动即生效）与历史记录",
         "category": "developer",
         "keywords": [
@@ -29,9 +29,9 @@
         "minAppVersion": "0.1.0"
       },
       "package": {
-        "file": "plugins/glm-key-test-1.7.0.zip",
-        "sha256": "7475c62d2e4b3a8953a17b8eedf0a9c6d319d1ed21a5f5b39a4d556441b4511e",
-        "size": 59149
+        "file": "plugins/glm-key-test-1.8.0.zip",
+        "sha256": "d58a9a7ea317996c78fa82e51772d72719ad276695eb1134ac2188e25be36ae4",
+        "size": 59900
       }
     },
     {
