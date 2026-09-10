@@ -1,7 +1,41 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T07:09:51.951Z",
+  "generatedAt": "2026-09-10T16:40:03.458Z",
   "tools": [
+    {
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "color-picker",
+        "name": "取色器",
+        "version": "0.1.2",
+        "description": "屏幕取色与色盘：吸管取色实时预览，HEX/RGB/HSL/HSV/CMYK 等多格式换算与一键复制",
+        "category": "image",
+        "keywords": [
+          "取色",
+          "取色器",
+          "颜色",
+          "色盘",
+          "屏幕取色",
+          "吸管",
+          "color",
+          "picker",
+          "eyedropper",
+          "hex",
+          "rgb",
+          "hsl"
+        ],
+        "icon": "pipette",
+        "layout": "card",
+        "entry": "module.js",
+        "style": "style.css",
+        "minAppVersion": "0.1.0"
+      },
+      "package": {
+        "file": "plugins/color-picker-0.1.2.zip",
+        "sha256": "72e874a7a3a2de62e74095597c59af672a40cbaee7074e02ddfd0dadc3b88bf9",
+        "size": 57142
+      }
+    },
     {
       "manifest": {
         "schemaVersion": 1,
@@ -131,9 +165,40 @@
     {
       "manifest": {
         "schemaVersion": 1,
+        "id": "password-vault",
+        "name": "密码保险库",
+        "version": "1.0.0",
+        "description": "本地加密密码管理：凭据增删改查、防重复提示、一键复制（自动清剪贴板）、密码生成器、Chrome/Edge CSV 导入、加密备份恢复、闲置自动锁定",
+        "category": "other",
+        "keywords": [
+          "password",
+          "vault",
+          "密码",
+          "密码管理",
+          "凭据",
+          "加密",
+          "导入",
+          "备份",
+          "生成"
+        ],
+        "icon": "key",
+        "layout": "fullscreen",
+        "entry": "module.js",
+        "style": "style.css",
+        "minAppVersion": "0.1.0"
+      },
+      "package": {
+        "file": "plugins/password-vault-1.0.0.zip",
+        "sha256": "746c2c5625ebcac8cf3f6aacad19eedc9425f4a08ee7824f4ddd6e01723af192",
+        "size": 73562
+      }
+    },
+    {
+      "manifest": {
+        "schemaVersion": 1,
         "id": "simulator",
         "name": "智能家居模拟器",
-        "version": "4.1.10",
+        "version": "4.2.0",
         "description": "akubela 智能家居模拟器（原生复刻）：全量设备族、家庭中心协议、对外 API、任务/场景/安防",
         "category": "developer",
         "keywords": [
@@ -153,9 +218,9 @@
         "minAppVersion": "0.2.0"
       },
       "package": {
-        "file": "plugins/simulator-4.1.10.zip",
-        "sha256": "ac1fa1af8e28d39a388f9115b82c41c76b2ee51409fa9c846e21b6de3a01c41a",
-        "size": 845095
+        "file": "plugins/simulator-4.2.0.zip",
+        "sha256": "948d59ae56c2feeadd9245c565ef2b6519b85a3f20c09bb7e09cab777912050f",
+        "size": 846568
       }
     },
     {
