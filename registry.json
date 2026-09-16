@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-14T02:47:48.123Z",
+  "generatedAt": "2026-09-16T02:52:30.616Z",
   "tools": [
     {
       "manifest": {
         "schemaVersion": 1,
         "id": "color-picker",
         "name": "取色器",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "description": "屏幕取色与色盘：吸管取色实时预览，HEX/RGB/HSL/HSV/CMYK 等多格式换算与一键复制",
         "category": "image",
         "keywords": [
@@ -28,12 +28,12 @@
         "layout": "card",
         "entry": "module.js",
         "style": "style.css",
-        "minAppVersion": "0.1.0"
+        "minAppVersion": "0.2.6"
       },
       "package": {
-        "file": "plugins/color-picker-0.1.2.zip",
-        "sha256": "3883691d1aadd7762db2d25f91e2b27870dd5c5cbcf9b1a8633d9aa5db025a7a",
-        "size": 57146
+        "file": "plugins/color-picker-0.1.3.zip",
+        "sha256": "c5865edbbb6040abbfb83a117e4bd443305e0e7b01d6c7e1f84c97bfa9c10ebe",
+        "size": 57149
       }
     },
     {
@@ -189,8 +189,8 @@
       },
       "package": {
         "file": "plugins/password-vault-1.0.0.zip",
-        "sha256": "746c2c5625ebcac8cf3f6aacad19eedc9425f4a08ee7824f4ddd6e01723af192",
-        "size": 73562
+        "sha256": "21ddfae8e9030d0871ac89a1cf02c97eaba3ad90ebe5e7ee28a3156bbbbf3921",
+        "size": 73568
       }
     },
     {
