@@ -1,8 +1,12 @@
 {
   "version": "0.2.7",
   "notes": "ToolBox v0.2.7",
-  "pub_date": "2026-09-22T08:43:26.647Z",
+  "pub_date": "2026-09-22T10:24:48.140Z",
   "platforms": {
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSjBLUG9DWkRuNTFuVlVGNnJtSjV5bzFmZDBybURMWG55SjZlY2VXMTNudFE1dFEwd1IyYWgrTkZRdlFjWURrRlZjZkUwOGo2RU04TEppbEFYazB3OW1OdURpSDN4WVFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDcyNDU3CWZpbGU6VG9vbEJveC5hcHAudGFyLmd6ClhvZmVIT0Rjb3J5ZldTNUp0QkRrRU92TDgwZ1NUd2I1V0VIOHdTbUROVmMwOXRCN0o0RkpRdTJ6OU8yRjlHTFJ0K3o2alg1UGc5a3VZaUZFUkQya0NnPT0K",
+      "url": "https://pie-tk.github.io/toolbox-registry/app/ToolBox_0.2.7_darwin-x86_64.app.tar.gz"
+    },
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSjBLUG9DWkRuNTRPTjZGZVBxTytRS295K2lWNUtuSmVPWUllakZSYXpobnlCNEcwYi8wL2Z4ZWJMelZmOWozVGVCbEpiZ3luMWJROUZNQ0htcndCVFhVcldhOXRiOWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDY2NTk4CWZpbGU6VG9vbEJveF8wLjIuN194NjQtc2V0dXAuZXhlClpFTE81KytyUTd5YW9mN0J1bGFWQzMyVkNwb2dJYjFNMWY1UkdYMEFQdTVCR0hvQno4QlFGYmlNelBxM0xCNXZIZWV1SzN6VzNUWnZ1Yms3Qm1SWEJRPT0K",
       "url": "https://pie-tk.github.io/toolbox-registry/app/ToolBox_0.2.7_windows-x86_64-setup.exe"
